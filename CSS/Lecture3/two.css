@@ -1,0 +1,36 @@
+/* CSS positioning */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    background-color: orange;
+    position: relative; /* it doesnot leave its space its space is reserved for it*/
+    left: 100px;
+    top: 50px;
+    /* bottom: 100px;
+    right: 120px; */
+}
+
+h3{
+    background-color: pink;
+    position: fixed; /* it leaves its space its space is not reserved for it, any other element can come at its place*/
+    top: 0px;
+    left: 100px;
+}
+
+h4{
+    background-color: brown;
+    position: sticky;
+    top: 20px;
+}
+
+p{
+    background-color: chartreuse;
+    position: absolute; /*moves itself according to its ancestor
+                          that is if it is inside any other container tag and that container tag has position either relative, fixed, or sticky it will align itself according to them.*/
+    left: 50px;     /*is samay window ke according kar rha hai*/
+    top: 0px;
+    z-index: 4;
+}

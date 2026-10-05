@@ -1,0 +1,16 @@
+h1{
+    background-color: pink;
+}
+
+.classA{
+    background-color: green;
+}
+
+#firstID{
+    background-color: blueviolet;
+    background-color: beige;
+}
+
+h2{
+    background-color: aquamarine !important;
+}
